@@ -1,6 +1,14 @@
 = regexhelper
 
-Description goes here.
+== Using regexhelper
+
+* Example usage
+  In your model:
+    validates :image_url, :format => {
+    :with => REGEXHELPER.image_regex,
+    :message => 'Not a valid image.'
+  }
+
 
 == Contributing to regexhelper
  

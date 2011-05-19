@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "regexhelper"
   gem.homepage = "http://github.com/jgbarr/regexhelper"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Easier regular expression inclusion}
+  gem.description = %Q{Use regular expressions with 'regexhelper.email_regex' etc.}
   gem.email = "jeff@jeffbarr.com"
   gem.authors = ["Jeff Barr"]
   # dependencies defined in Gemfile
