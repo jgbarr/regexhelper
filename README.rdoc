@@ -1,13 +1,12 @@
-= regexhelper
+== regexhelper - easier inclusion of regular expressions in rails validation
 
 == Using regexhelper
 
-* Example usage
-  In your model:
+  Example usage
+  In your user/product/thingymabopper models:
     validates :image_url, :format => {
     :with => REGEXHELPER.image_regex,
-    :message => 'Not a valid image.'
-  }
+    :message => 'Not a valid image.'}
 
 
 == Contributing to regexhelper
